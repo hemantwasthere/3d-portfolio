@@ -217,6 +217,7 @@ const projects = [
     ],
     image: carrent,
     source_code_link: "https://github.com/",
+    live_demo_link: "https://car-rental-frontend.vercel.app/",
   },
   {
     name: "Job IT",
@@ -238,6 +239,8 @@ const projects = [
     ],
     image: jobit,
     source_code_link: "https://github.com/",
+    live_demo_link: "https://car-rental-frontend.vercel.app/",
+    
   },
   {
     name: "Trip Guide",
@@ -259,6 +262,8 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://github.com/",
+    live_demo_link: "https://car-rental-frontend.vercel.app/",
+    
   },
 ];
 
