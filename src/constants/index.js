@@ -22,7 +22,7 @@ import {
   threejs,
   tripguide,
   typescript,
-  web,
+  web
 } from "../assets";
 
 export const navLinks = [
@@ -46,15 +46,15 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Open Source Contributor",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Hungry Learner",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Hardcore Gamer",
     icon: creator,
   },
 ];
@@ -263,3 +263,4 @@ const projects = [
 ];
 
 export { services, technologies, experiences, testimonials, projects };
+
