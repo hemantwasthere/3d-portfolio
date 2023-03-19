@@ -1,17 +1,27 @@
 import {
+  alive,
   backend,
   carrent,
+  chatgpt,
+  clang,
+  cloudimg,
   creator,
   css,
+  devsnest,
+  digi,
   docker,
   figma,
   git,
+  gitalt,
   html,
+  java,
   javascript,
   jobit,
   meta,
   mobile,
   mongodb,
+  mysql,
+  nextjs,
   nodejs,
   reactjs,
   redux,
@@ -22,7 +32,8 @@ import {
   threejs,
   tripguide,
   typescript,
-  web
+  vuejs,
+  web,
 } from "../assets";
 
 export const navLinks = [
@@ -37,6 +48,10 @@ export const navLinks = [
   {
     id: "contact",
     title: "Contact",
+  },
+  {
+    id: "resume",
+    title: "Resume",
   },
 ];
 
@@ -81,8 +96,12 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Next JS",
+    icon: nextjs,
+  },
+  {
+    name: "Vue JS",
+    icon: vuejs,
   },
   {
     name: "Tailwind CSS",
@@ -93,78 +112,62 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "Java",
+    icon: java,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "C",
+    icon: clang,
+  },
+  {
+    name: "MySQL",
+    icon: mysql,
   },
   {
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "React.js Developer Intern",
+    company_name: "A.live",
+    icon: alive,
+    iconBg: "#53E1AD",
+    date: "Sep 2022 - Dec 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed the website using React.js, a popular JavaScript library for building user interfaces.",
+      "Integrated web3.js, a library for interacting with the Ethereum blockchain, to add NFT related functionality to the website.",
+      "Converted the React website to Next.js, a React-based framework for server-side rendering, for improved SEO and faster load times.",
+      "Worked with Strapi, an open-source headless CMS, as the backend for custom functions and API calls.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "Software Developer Intern",
+    company_name: "Digi-k-labs",
+    icon: digi,
+    iconBg: "#fff",
+    date: "Aug 2022 - Oct 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Worked on an open-source npm package(lightvue) with over 450+ weekly downloads in Vue.js.",
+      "Innovated an icon picker component compatible with both Vue 2.x and Vue 3.x.",
+      "Developed a fully-fledged website for their form builder tool used by many users.",
+      "Built over 40+ generic, customizable, props driven and fully responsive components.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    title: "Frontend Mentor, Contributor",
+    company_name: "Devsnest",
+    icon: devsnest,
+    iconBg: "#18191A",
+    date: "Aug 2022 - Oct 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Devsnest is an organization with over 21k+ community providing mentorship, guidance, and resources to students through a peer learning-driven mindset.",
+      "Mentored and solved Doubts of over 50+ students in the Community.",
+      "Implemented over 30+ practice questions for their ongoing Full Stack Developer Bootcamp on their site devsnest.in",
+      "Tested, Debugged, and Revamped code in each question.",
+      "Write over 50+ test cases using Chai.js and Mocha to test questions.",
     ],
   },
 ];
@@ -198,16 +201,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "ChatGPT Alt",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "An AI Conversational Interaction Platform that allows users to chat with a GPT-3 powered chatbot by using openai API. The chatbot is trained on a dataset of over 100,000+ conversations.",
     tags: [
       {
-        name: "react",
+        name: "next",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "openai",
         color: "green-text-gradient",
       },
       {
@@ -215,57 +218,54 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-    live_demo_link: "https://car-rental-frontend.vercel.app/",
+    image: chatgpt,
+    source_code_link: "https://github.com/hemantwasthere/ChatGPT-Clone",
+    live_demo_link: "https://chatgpt-alt.vercel.app",
   },
   {
-    name: "Job IT",
+    name: "Git Alt",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A Github profile viewer built using NextJS and Github API. This app can fetch your github profile details by entering your username in the searchbox and hit enter and display it to the client.",
     tags: [
       {
-        name: "react",
+        name: "next",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "githubapi",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-    live_demo_link: "https://car-rental-frontend.vercel.app/",
-    
+    image: gitalt,
+    source_code_link: "https://github.com/hemantwasthere/GitHub-Clone",
+    live_demo_link: "https://gitalt.netlify.app",
   },
   {
-    name: "Trip Guide",
+    name: "Cloud Image",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Designed a image uploading application using NextJS. This app can store your images of any type to the firebase cloud with the delete functionality and displays them to the client.",
     tags: [
       {
-        name: "nextjs",
+        name: "next",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "firebase",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-    live_demo_link: "https://car-rental-frontend.vercel.app/",
-    
+    image: cloudimg,
+    source_code_link: "https://github.com/hemantwasthere/Image-Uploader",
+    live_demo_link: "https://image-uploader-by-me.netlify.app/",
   },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
-

@@ -1,3 +1,4 @@
+import alive from "./alive.ico";
 import backend from "./backend.png";
 import carrent from "./carrent.png";
 import close from "./close.svg";
@@ -7,6 +8,7 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import creator from "./creator.png";
 import demo_icon from "./demo_icon.png";
+import digi from "./digi.svg";
 import github from "./github.png";
 import jobit from "./jobit.png";
 import logo from "./logo.svg";
@@ -27,6 +29,15 @@ import threejs from "./tech/threejs.svg";
 import typescript from "./tech/typescript.png";
 import tripguide from "./tripguide.png";
 import web from "./web.png";
+import devsnest from "./devsnest.png";
+import nextjs from "./tech/nextjs.png";
+import vuejs from "./tech/vuejs.png";
+import java from "./tech/java.png";
+import clang from "./tech/clang.png";
+import mysql from "./tech/mysql.png";
+import chatgpt from "./chatgpt.png";
+import gitalt from "./gitalt.png";
+import cloudimg from "./cloudimg.png";
 
 export {
   logo,
@@ -58,4 +69,15 @@ export {
   jobit,
   tripguide,
   demo_icon,
+  alive,
+  digi,
+  devsnest,
+  nextjs,
+  vuejs,
+  java,
+  clang,
+  mysql,
+  chatgpt,
+  gitalt,
+  cloudimg
 };

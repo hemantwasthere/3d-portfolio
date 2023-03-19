@@ -36,7 +36,16 @@ const Navbar = () => {
               } hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(link.title)}
             >
-              <a href={`#${link.id}`}>{link.title}</a>
+              <a
+                href={`${
+                  link.id === "resume"
+                    ? "https://drive.google.com/file/d/19ZqtdYC1CMDgO9kRE8oeXDIddrqd-cAe/view"
+                    : `#${link.id}`
+                }`}
+                target={link.id === "resume" ? "_blank" : ""}
+              >
+                {link.title}
+              </a>
             </li>
           ))}
         </ul>
@@ -65,7 +74,16 @@ const Navbar = () => {
                     setActive(link.title);
                   }}
                 >
-                  <a href={`#${link.id}`}>{link.title}</a>
+                  <a
+                    href={`${
+                      link.id === "resume"
+                        ? "https://drive.google.com/file/d/19ZqtdYC1CMDgO9kRE8oeXDIddrqd-cAe/view"
+                        : `#${link.id}`
+                    }`}
+                    target={link.id === "resume" ? "_blank" : ""}
+                  >
+                    {link.title}
+                  </a>
                 </li>
               ))}
             </ul>
