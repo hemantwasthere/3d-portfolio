@@ -39,7 +39,7 @@ const Navbar = () => {
               <a
                 href={`${
                   link.id === "resume"
-                    ? "https://drive.google.com/file/d/19ZqtdYC1CMDgO9kRE8oeXDIddrqd-cAe/view"
+                    ? "https://drive.google.com/file/d/1ArH6a21V1smfAEypZoiRItAvnbIh__Ve/view?usp=sharing"
                     : `#${link.id}`
                 }`}
                 target={link.id === "resume" ? "_blank" : ""}

@@ -1,7 +1,6 @@
 import {
   alive,
   backend,
-  carrent,
   chatgpt,
   clang,
   cloudimg,
@@ -9,31 +8,21 @@ import {
   css,
   devsnest,
   digi,
-  docker,
-  figma,
   git,
   gitalt,
   html,
   java,
   javascript,
-  jobit,
-  meta,
   mobile,
-  mongodb,
   mysql,
   nextjs,
   nodejs,
   reactjs,
-  redux,
-  shopify,
-  starbucks,
   tailwind,
-  tesla,
-  threejs,
-  tripguide,
   typescript,
   vuejs,
   web,
+  sumz
 } from "../assets";
 
 export const navLinks = [
@@ -201,6 +190,28 @@ const testimonials = [
 
 const projects = [
   {
+    name: "SumZ",
+    description:
+      "Simplify your reading with Summarizer, an open-source article summarizer that transforms lengthy articles into clear and concise summaries",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "rapidapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: sumz,
+    source_code_link: "https://github.com/hemantwasthere/ai-sumz",
+    live_demo_link: "https://zsum.netlify.app/",
+  },
+  {
     name: "ChatGPT Alt",
     description:
       "An AI Conversational Interaction Platform that allows users to chat with a GPT-3 powered chatbot by using openai API. The chatbot is trained on a dataset of over 100,000+ conversations.",
@@ -245,9 +256,9 @@ const projects = [
     live_demo_link: "https://gitalt.netlify.app",
   },
   {
-    name: "Cloud Image",
+    name: "CloudAge",
     description:
-      "Designed a image uploading application using NextJS. This app can store your images of any type to the firebase cloud with the delete functionality and displays them to the client.",
+      "Designed a image uploading application using NextJS. This app can store your images and gifs to the firebase cloud with the delete functionality and displays them to the client.",
     tags: [
       {
         name: "next",

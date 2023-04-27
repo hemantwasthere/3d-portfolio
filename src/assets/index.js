@@ -38,6 +38,7 @@ import mysql from "./tech/mysql.png";
 import chatgpt from "./chatgpt.png";
 import gitalt from "./gitalt.png";
 import cloudimg from "./cloudimg.png";
+import sumz from './sumz.png'
 
 export {
   logo,
@@ -79,5 +80,6 @@ export {
   mysql,
   chatgpt,
   gitalt,
-  cloudimg
+  cloudimg,
+  sumz
 };
