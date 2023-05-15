@@ -122,6 +122,15 @@ const Contact = () => {
               {loading ? "Sending..." : "Send"}
             </button>
             <div className="flex gap-4 xs:gap-5 ml-1 xs:ml-2 items-center">
+              <a href="https://www.github.com/hemantwasthere" target="_blank">
+                <i className="fa fa-github" style={{ fontSize: "1.5rem" }}></i>
+              </a>
+              <a href="https://www.twitter.com/hemantwasthere" target="_blank">
+                <i
+                  className="fa fa-twitter"
+                  style={{ fontSize: "1.5rem", color: "#1D9BF0" }}
+                ></i>
+              </a>
               <a
                 href="https://www.linkedin.com/in/hemantwasthere"
                 target="_blank"
@@ -130,15 +139,6 @@ const Contact = () => {
                   className="fa fa-linkedin"
                   style={{ fontSize: "1.5rem", color: "#0B67C2" }}
                 ></i>
-              </a>
-              <a href="https://www.twitter.com/hemantwasthere" target="_blank">
-                <i
-                  className="fa fa-twitter"
-                  style={{ fontSize: "1.5rem", color: "#1D9BF0" }}
-                ></i>
-              </a>
-              <a href="https://www.github.com/hemantwasthere" target="_blank">
-                <i className="fa fa-github" style={{ fontSize: "1.5rem" }}></i>
               </a>
             </div>
           </div>

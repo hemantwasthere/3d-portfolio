@@ -164,27 +164,11 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Hemant is an exceptional frontend developer with impressive technical skills and attention to detail. His problem-solving abilities and collaborative nature make him a valuable asset to any team. It has been a pleasure working with him, and I highly recommend him for his talent and dedication.",
+    name: "Piyush Garg",
+    designation: "Founder",
+    company: "Teachyst.com",
+    image: "https://avatars.githubusercontent.com/u/44976328?v=4",
   },
 ];
 
