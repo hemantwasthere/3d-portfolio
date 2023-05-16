@@ -44,7 +44,9 @@ const BlogCard = ({ blogUrl, src, title }) => {
 const Blogs = () => {
   return (
     <>
-      <h2 className={styles.sectionHeadText}>My Blogs</h2>
+      <motion.div variants={textVariant()}>
+        <h2 className={styles.sectionHeadText}>My Blogs</h2>
+      </motion.div>
       <div className="flex flex-col gap-4 mt-8">
         <Carousel
           cols={3}

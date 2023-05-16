@@ -12,6 +12,7 @@
     "@emailjs/browser": "^3.10.0",
     "@react-three/drei": "^9.57.3",
     "@react-three/fiber": "^8.12.0",
+    "better-react-carousel": "^1.1.1",
     "framer-motion": "^10.6.0",
     "maath": "^0.5.3",
     "react": "^18.2.0",
