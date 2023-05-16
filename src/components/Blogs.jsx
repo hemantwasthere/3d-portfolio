@@ -57,8 +57,8 @@ const Blogs = () => {
           showDots
           loop
         >
-          {data.map((item) => (
-            <Carousel.Item key={item.from}>
+          {data.map((item, i) => (
+            <Carousel.Item key={i}>
               <BlogCard {...item} />
             </Carousel.Item>
           ))}
