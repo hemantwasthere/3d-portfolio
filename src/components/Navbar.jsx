@@ -39,7 +39,7 @@ const Navbar = () => {
               <a
                 href={`${
                   link.id === "resume"
-                    ? "https://drive.google.com/file/d/1JLywyVTKy95cvTDlOTjMhVFc0MQ0aJXe/view?usp=sharing"
+                    ? "https://s3.ap-south-1.amazonaws.com/hemantwasthere.bucket/Hemant_CV.pdf"
                     : `#${link.id}`
                 }`}
                 target={link.id === "resume" ? "_blank" : ""}
@@ -77,7 +77,7 @@ const Navbar = () => {
                   <a
                     href={`${
                       link.id === "resume"
-                        ? "https://drive.google.com/file/d/1JLywyVTKy95cvTDlOTjMhVFc0MQ0aJXe/view?usp=sharing"
+                        ? "https://s3.ap-south-1.amazonaws.com/hemantwasthere.bucket/Hemant_CV.pdf"
                         : `#${link.id}`
                     }`}
                     target={link.id === "resume" ? "_blank" : ""}
