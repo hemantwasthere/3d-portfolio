@@ -44,7 +44,7 @@ const BlogCard = ({ blogUrl, src, title }) => {
 const Blogs = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      {/* <motion.div variants={textVariant()}>
         <h2 className={styles.sectionHeadText}>My Blogs</h2>
       </motion.div>
       <div className="flex flex-col gap-4 mt-8">
@@ -63,7 +63,7 @@ const Blogs = () => {
             </Carousel.Item>
           ))}
         </Carousel>
-      </div>
+      </div> */}
     </>
   );
 };

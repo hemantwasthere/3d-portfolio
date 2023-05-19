@@ -1,5 +1,5 @@
 import About from "./About";
-import Blogs from "./Blogs";
+// import Blogs from "./Blogs";
 import {
     BallCanvas,
     ComputersCanvas, EarthCanvas, StarsCanvas
@@ -15,7 +15,7 @@ import Works from "./Works";
 
 export {
     Hero,
-    Blogs,
+    // Blogs,
     Navbar,
     About,
     Tech,

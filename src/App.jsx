@@ -9,7 +9,7 @@ import {
   StarsCanvas,
   Tech,
   Works,
-  Blogs,
+  // Blogs,
 } from "./components";
 import AnimatedCursor from "react-animated-cursor";
 
@@ -46,7 +46,7 @@ const App = () => {
         <Experience />
         <Tech />
         <Works />
-        <Blogs />
+        {/* <Blogs /> */}
         <Feedbacks />
         <div className="relative z-0">
           <Contact />
