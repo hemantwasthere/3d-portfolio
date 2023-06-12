@@ -9,7 +9,7 @@ import {
   StarsCanvas,
   Tech,
   Works,
-  // Blogs,
+  Blogs,
 } from "./components";
 import AnimatedCursor from "react-animated-cursor";
 
@@ -23,6 +23,7 @@ const App = () => {
         outerAlpha={0.2}
         innerScale={1}
         outerScale={5}
+        showSystemCursor={true}
         clickables={[
           "a",
           'input[type="text"]',
@@ -46,7 +47,7 @@ const App = () => {
         <Experience />
         <Tech />
         <Works />
-        {/* <Blogs /> */}
+        <Blogs />
         <Feedbacks />
         <div className="relative z-0">
           <Contact />

@@ -1,9 +1,9 @@
+import Carousel from "better-react-carousel";
+import { motion } from "framer-motion";
 import React from "react";
 import { SectionWrapper } from "../hoc";
-import Carousel from "better-react-carousel";
-import { textVariant } from "../utils/motion";
-import { motion } from "framer-motion";
 import { styles } from "../styles";
+import { textVariant } from "../utils/motion";
 
 const data = [
   {
@@ -22,6 +22,24 @@ const data = [
       "https://hemantwasthere.hashnode.dev/best-practices-for-frontend-development",
     title: "Best practices for frontend development",
     src: "https://cdn.hashnode.com/res/hashnode/image/upload/v1684087023797/40d45c1a-49ab-466d-a6b2-d4633b34c643.webp?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp",
+  },
+  {
+    blogUrl:
+      "https://hemantwasthere.hashnode.dev/evolution-of-frontend-development",
+    title:
+      "Journey Through Time: Exploring the Evolution of Frontend Development",
+    src: "https://cdn.hashnode.com/res/hashnode/image/upload/v1684927917347/e461a319-c39e-4589-b603-3a6d5aae4c4e.webp?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp",
+  },
+  {
+    blogUrl: "https://hemantwasthere.hashnode.dev/zustand",
+    title: "Simplifying State Management with Zustand",
+    src: "https://cdn.hashnode.com/res/hashnode/image/upload/v1685466349178/dd09102a-a4e3-45ea-b26e-3a98c6a8324b.jpeg?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp",
+  },
+  {
+    blogUrl:
+      "https://hemantwasthere.hashnode.dev/21-fantastic-web-features-you-havent-explored",
+    title: "21 Fantastic Web Features You Haven't Explored",
+    src: "https://cdn.hashnode.com/res/hashnode/image/upload/v1686479367726/c2c616ec-d0d8-45e1-a468-b1fa09db5692.jpeg?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp",
   },
 ];
 
@@ -44,7 +62,7 @@ const BlogCard = ({ blogUrl, src, title }) => {
 const Blogs = () => {
   return (
     <>
-      {/* <motion.div variants={textVariant()}>
+      <motion.div variants={textVariant()}>
         <h2 className={styles.sectionHeadText}>My Blogs</h2>
       </motion.div>
       <div className="flex flex-col gap-4 mt-8">
@@ -63,7 +81,7 @@ const Blogs = () => {
             </Carousel.Item>
           ))}
         </Carousel>
-      </div> */}
+      </div>
     </>
   );
 };
