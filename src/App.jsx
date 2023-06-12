@@ -1,6 +1,8 @@
+import AnimatedCursor from "react-animated-cursor";
 import { BrowserRouter } from "react-router-dom";
 import {
   About,
+  Blogs,
   Contact,
   Experience,
   Feedbacks,
@@ -9,9 +11,7 @@ import {
   StarsCanvas,
   Tech,
   Works,
-  Blogs,
 } from "./components";
-import AnimatedCursor from "react-animated-cursor";
 
 const App = () => {
   return (
@@ -47,7 +47,7 @@ const App = () => {
         <Experience />
         <Tech />
         <Works />
-        <Blogs />
+        {/* <Blogs /> */}
         <Feedbacks />
         <div className="relative z-0">
           <Contact />

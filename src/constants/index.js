@@ -18,11 +18,11 @@ import {
   nextjs,
   nodejs,
   reactjs,
+  sumz,
   tailwind,
   typescript,
   vuejs,
-  web,
-  sumz
+  web
 } from "../assets";
 
 export const navLinks = [
@@ -37,6 +37,10 @@ export const navLinks = [
   {
     id: "contact",
     title: "Contact",
+  },
+  {
+    id: "blogs",
+    title: "Blogs",
   },
   {
     id: "resume",
@@ -263,4 +267,5 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { experiences, projects, services, technologies, testimonials };
+

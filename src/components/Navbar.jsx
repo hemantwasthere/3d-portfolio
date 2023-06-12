@@ -40,9 +40,13 @@ const Navbar = () => {
                 href={`${
                   link.id === "resume"
                     ? "https://s3.ap-south-1.amazonaws.com/hemantwasthere.bucket/Hemant_CV.pdf"
+                    : link.id === "blogs"
+                    ? "https://hemantwasthere.hashnode.dev"
                     : `#${link.id}`
                 }`}
-                target={link.id === "resume" ? "_blank" : ""}
+                target={
+                  link.id === "resume" || link.id === "blogs" ? "_blank" : ""
+                }
               >
                 {link.title}
               </a>
@@ -78,9 +82,10 @@ const Navbar = () => {
                     href={`${
                       link.id === "resume"
                         ? "https://s3.ap-south-1.amazonaws.com/hemantwasthere.bucket/Hemant_CV.pdf"
+                        : link.id === "blogs"
+                        ? "https://hemantwasthere.hashnode.dev"
                         : `#${link.id}`
                     }`}
-                    target={link.id === "resume" ? "_blank" : ""}
                   >
                     {link.title}
                   </a>
