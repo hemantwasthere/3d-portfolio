@@ -2,7 +2,7 @@ import AnimatedCursor from "react-animated-cursor";
 import { BrowserRouter } from "react-router-dom";
 import {
   About,
-  Blogs,
+  // Blogs,
   Contact,
   Experience,
   Feedbacks,

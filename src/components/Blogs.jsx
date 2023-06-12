@@ -65,7 +65,7 @@ const Blogs = () => {
       <motion.div variants={textVariant()}>
         <h2 className={styles.sectionHeadText}>My Blogs</h2>
       </motion.div>
-      <div className="flex flex-col gap-4 mt-8">
+      {/* <div className="flex flex-col gap-4 mt-8">
         <Carousel
           cols={3}
           rows={1}
@@ -81,7 +81,7 @@ const Blogs = () => {
             </Carousel.Item>
           ))}
         </Carousel>
-      </div>
+      </div> */}
     </>
   );
 };
