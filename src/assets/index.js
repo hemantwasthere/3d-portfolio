@@ -31,6 +31,7 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import vuejs from "./tech/vuejs.png";
 import web from "./web.png";
+import spotify from './spotify.png'
 
 export {
   logo,
@@ -65,6 +66,7 @@ export {
   chatgpt,
   gitalt,
   cloudimg,
-  sumz
+  sumz,
+  spotify
 };
 

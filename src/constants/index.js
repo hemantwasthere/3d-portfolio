@@ -22,7 +22,8 @@ import {
   tailwind,
   typescript,
   vuejs,
-  web
+  web,
+  spotify
 } from "../assets";
 
 export const navLinks = [
@@ -177,6 +178,32 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Spotify",
+    description:
+      "Developed Spotify-inspired app with Next.js 13 & TailwindCSS. Integrated Supabase for authentication, preferences, and song data. Enabled secure payments via Stripe API and created custom features like authentication, song upload, search, and playback controls.",
+    tags: [
+      {
+        name: "next.js 13",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "stripe",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: spotify,
+    source_code_link: "https://github.com/hemantwasthere/spotify",
+    live_demo_link: "https://spotify-dread.vercel.app/",
+  },
   {
     name: "SumZ",
     description:
