@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 import { close, logo, menu } from "../assets";
@@ -39,7 +39,7 @@ const Navbar = () => {
               <a
                 href={`${
                   link.id === "resume"
-                    ? "https://drive.google.com/file/d/1nBZUrJV9b2SnlDsnaX89i0Ofp5K7EQ8B/view?usp=sharing"
+                    ? "https://hemantwasthere.s3.ap-south-1.amazonaws.com/Hemant_CV.pdf"
                     : link.id === "blogs"
                     ? "https://hemantwasthere.hashnode.dev"
                     : `#${link.id}`
@@ -81,7 +81,7 @@ const Navbar = () => {
                   <a
                     href={`${
                       link.id === "resume"
-                        ? "https://drive.google.com/file/d/1nBZUrJV9b2SnlDsnaX89i0Ofp5K7EQ8B/view?usp=sharing"
+                        ? "https://hemantwasthere.s3.ap-south-1.amazonaws.com/Hemant_CV.pdf"
                         : link.id === "blogs"
                         ? "https://hemantwasthere.hashnode.dev"
                         : `#${link.id}`
