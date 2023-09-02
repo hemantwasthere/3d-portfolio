@@ -39,7 +39,7 @@ const Navbar = () => {
               <a
                 href={`${
                   link.id === "resume"
-                    ? "https://s3.ap-south-1.amazonaws.com/hemantwasthere.bucket/Hemant_CV.pdf"
+                    ? "https://drive.google.com/file/d/1nBZUrJV9b2SnlDsnaX89i0Ofp5K7EQ8B/view?usp=sharing"
                     : link.id === "blogs"
                     ? "https://hemantwasthere.hashnode.dev"
                     : `#${link.id}`
@@ -81,7 +81,7 @@ const Navbar = () => {
                   <a
                     href={`${
                       link.id === "resume"
-                        ? "https://s3.ap-south-1.amazonaws.com/hemantwasthere.bucket/Hemant_CV.pdf"
+                        ? "https://drive.google.com/file/d/1nBZUrJV9b2SnlDsnaX89i0Ofp5K7EQ8B/view?usp=sharing"
                         : link.id === "blogs"
                         ? "https://hemantwasthere.hashnode.dev"
                         : `#${link.id}`
